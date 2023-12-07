@@ -1,4 +1,4 @@
-const InfoBanner = ({
+const InfoBannerPortrait = ({
   action,
   setAction,
 }: {
@@ -15,15 +15,17 @@ const InfoBanner = ({
   return (
     <>
       {action === "signIn" && (
-        <div className="absolute flex flex-col justify-center items-center px-4 text-center gap-4 rounded-xl rounded-tl-[30%] rounded-bl-[20%] w-1/2 h-[100%] bg-blue-950 text-white signup-banner-desktop">
-          <span className="font-bold text-[35px]">Welcome Back!</span>
+        <div className=" flex flex-col w-full h-[33%] bg-blue-950 text-white signup-banner-portrait rounded-xl rounded-bl-[30%] p-2 items-end">
+          <span className=" text-start w-full font-bold text-[35px]">
+            Welcome Back!
+          </span>
           <p className="">
             Enter your personal details to use all the site features
           </p>
           <button
             type="button"
             onClick={handleFormType}
-            className=" w-[40%] border border-white p-3 font-semibold rounded-md hover:bg-slate-500"
+            className=" w-[40%] border border-white p-3 font-semibold rounded-md hover:bg-slate-800"
           >
             SIGN UP
           </button>
@@ -31,15 +33,17 @@ const InfoBanner = ({
       )}
 
       {action === "signUp" && (
-        <div className=" absolute flex flex-col justify-center items-center px-4 text-center gap-4 rounded-xl rounded-tr-[30%] rounded-br-[20%] w-1/2 h-[100%] bg-blue-950 text-white signin-banner-desktop">
-          <span className=" font-bold text-[35px]">Hello, Friend!</span>
+        <div className="flex flex-col w-full h-[33%] bg-blue-950 text-white signin-banner-portrait rounded-xl rounded-bl-[30%] p-2 items-end">
+          <span className="text-start w-full font-bold text-[35px]">
+            Hello, Friend!
+          </span>
           <p className=" font-light ">
             Register with your personal details to use all of site features
           </p>
           <button
             type="button"
             onClick={handleFormType}
-            className=" w-[40%] border border-white p-3 font-semibold rounded-md hover:bg-slate-500"
+            className=" w-[40%] border border-white p-3 font-semibold rounded-md hover:bg-slate-800"
           >
             SIGN IN
           </button>
@@ -49,4 +53,4 @@ const InfoBanner = ({
   );
 };
 
-export default InfoBanner;
+export default InfoBannerPortrait;

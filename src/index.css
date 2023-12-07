@@ -60,3 +60,62 @@
     transform: translateX(0);
   }
 }
+
+/*For devices with portrait screens*/
+.signin-form-portrait {
+  animation: signin-form-portrait-animate 1s ease;
+}
+
+@keyframes signin-form-portrait-animate {
+  from {
+    transform: translate(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.signup-form-portrait {
+  animation: signup-form-portrait-animate 1s ease;
+}
+
+@keyframes signup-form-portrait-animate {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.signup-banner-portrait {
+  animation: signup-banner-portrait-animate 1s ease;
+  transform: translateY(0);
+}
+
+@keyframes signup-banner-portrait-animate {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.signin-banner-portrait {
+  animation: signin-banner-portrait-animate 1s ease;
+  transform: translateY(0);
+}
+
+@keyframes signin-banner-portrait-animate {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
