@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signin-form-desktop {
+  animation: signin-form-desktop-animate 1s ease;
+}
+
+@keyframes signin-form-desktop-animate {
+  from {
+    transform: translate(50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.signup-form-desktop {
+  animation: signup-form-desktop-animate 1s ease;
+  transform: translateX(100%);
+}
+
+@keyframes signup-form-desktop-animate {
+  from {
+    transform: translateX(50%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.signup-banner-desktop {
+  animation: signup-banner-desktop-animate 1s ease;
+  transform: translateX(100%);
+}
+
+@keyframes signup-banner-desktop-animate {
+  from {
+    transform: translateX(50%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.signin-banner-desktop {
+  animation: signin-banner-desktop-animate 1s ease;
+  transform: translateX(0);
+}
+
+@keyframes signin-banner-desktop-animate {
+  from {
+    transform: translateX(50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
