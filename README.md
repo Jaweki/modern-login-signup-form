@@ -92,5 +92,5 @@ For future projects of this kind, I would like to implement input validation. Mo
 ## Author
 
 - Website - [Jaweki Portfolio](https://portfolio.jaweki.com)
-- LinkedIn Profile - [Jack (Kioni) Weru](www.linkedin.com/in/jaweki-dekut)
+- LinkedIn Profile - [Jack (Kioni) Weru](https://linkedin.com/in/jaweki-dekut)
 - X.com - [@JackKioni](https://twitter.com/search?q=%40JackKioni&src=typed_query)
